@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+body {
+  background-color: gray;
+}
+
+.container {
+  background-color: white;
+  padding: 40px 30px;
+  width: 360px;
+}
+
+h3 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.card {
+  width: 100%;
+  margin: 20px 0;
+}
+
+input,
+textarea {
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin-top: 6px;
+  resize: none;
+}
+
+.first-name {
+  float: left;
+  width: 48%;
+}
+
+.last-name {
+  float: right;
+  width: 48%;
+}
+
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  width: 12px;
+  height: 12px;
+  padding: 0px;
+  margin-right: 8px;
+  background-color: rgb(200, 200, 200);
+  border: none;
+  border-radius: 3px;
+}
+
+input[type="checkbox"]:checked {
+  -webkit-appearance: checkbox;
+}
+
+label {
+  float: left;
+  font-size: 14px;
+}
+
+.yellow-btn {
+  float: right;
+  font-size: 16px;
+  border: none;
+  border-radius: 2px;
+  padding: 5px 20px;
+  background-color: orange;
+  color: white;
+}
