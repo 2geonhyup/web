@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+.clear {
+  clear: both;
+}
+
 .white {
   color: white;
 }
@@ -104,38 +108,44 @@ i {
   display: inline-block;
   position: relative;
   width: 700px;
+  height: 460px;
 }
 
-@keyframes example {
+@keyframes animation {
   from {
     border: 0 white;
   }
   to {
-    border: 10px solid white;
+    border: 15px solid white;
   }
 }
 
 .image-div {
   float: left;
-  width: 50%;
+  width: 350px;
   height: 230px;
   box-sizing: border-box;
   position: relative;
 }
 
 .image-div:hover {
-  animation-name: example;
+  animation-name: animation;
   animation-duration: 0.5s;
 }
 
 .image-div > .img-box {
-  width: 349.5px;
-  height: 229.8px;
+  width: 350px;
+  height: 230px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: -1;
+}
+
+.left {
+  width: 349.5px;
+  margin-left: 0.5px;
 }
 
 .img-box > img {
@@ -177,12 +187,20 @@ i {
   box-sizing: border-box;
   background-color: #4e61c0;
   text-align: center;
-  padding-top: 9px;
+  padding-top: 8.5px;
 }
 
 .blue-round-div > i {
   color: white;
   font-size: 16px;
+}
+
+.blue-round-div:hover {
+  background-color: greenyellow;
+}
+
+.blue-round-div:hover i {
+  color: black;
 }
 
 .company {
