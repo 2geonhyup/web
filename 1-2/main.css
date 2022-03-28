@@ -1,0 +1,163 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #0c43b7;
+}
+a:visited {
+  color: #0c43b7;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  background-color: #fafbfc;
+  font-family: "Nanum Barun Gothic";
+}
+
+.job-bar {
+  background-color: rgba(117, 144, 131, 0.3);
+  display: inline-block;
+  width: 1px;
+  height: 10px;
+  margin: 4px 7px 0 8px;
+  vertical-align: top;
+}
+
+.main {
+  margin-top: 20px;
+  margin-left: 30px;
+  padding-bottom: 20px;
+  width: 700px;
+  background-color: #eef1f0;
+  border-radius: 6px;
+  border-top: 3px solid;
+  border-top-color: rgba(117, 144, 131, 0.25);
+}
+
+.name {
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.job {
+  padding-left: 20px;
+  color: #496f5d;
+  font-size: 14px;
+}
+
+.profile-nav-bar {
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.menu {
+  float: left;
+  color: #496f5d;
+  margin-top: 5px;
+  margin-bottom: 14px;
+  padding-right: 10px;
+  font-size: 15px;
+}
+
+.all {
+  float: left;
+  background-color: #759083;
+  color: white;
+  margin-bottom: 12px;
+  margin-right: 10px;
+  padding-top: 5px;
+  font-size: 15px;
+  width: 46px;
+  height: 24px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.menu-bar {
+  background-color: rgba(117, 144, 131, 0.5);
+  display: inline-block;
+  width: 1px;
+  height: 14px;
+  margin: 4px 10px 4px 5px;
+  vertical-align: top;
+}
+
+.profile {
+  clear: both;
+  margin: 0 9px 12px;
+  padding: 15px 15px 21px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.middle-title {
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.profile-img {
+  width: 86.5px;
+  height: 108px;
+  float: right;
+  border-radius: 6px;
+}
+
+.info-group {
+  position: relative;
+  margin-left: 15px;
+  line-height: 23px;
+}
+
+#last-cm-bar {
+  top: 4px;
+  bottom: 6px;
+  height: 16px;
+}
+
+.cm-bar {
+  display: inline-block;
+  position: absolute;
+  top: 4px;
+  left: -15px;
+  bottom: -7px;
+  width: 3px;
+  height: auto;
+  opacity: 0.9;
+  background-color: #eef1f0;
+}
+
+dt {
+  float: left;
+  padding-right: 8px;
+  color: gray;
+  font-size: 13px;
+}
+
+dd {
+  margin-left: 50px;
+  font-size: 13px;
+}
+
+hr {
+  margin-top: 15px;
+  border: 0;
+  height: 0.1px;
+  background: #eee;
+}
+
+.footer {
+  margin-top: 10px;
+  color: gray;
+  font-size: 12px;
+}
