@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+button {
+  border: 0;
+  outline: 0;
+}
+
+.main {
+  width: 800px;
+  height: 200px;
+  margin: 30px;
+}
+
+.content {
+  width: 70%;
+  height: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  float: left;
+}
+
+.post-image {
+  position: relative;
+  width: 25%;
+  height: 100%;
+  float: left;
+}
+.post-image img {
+  width: 100%;
+  height: 100%;
+}
+.post-image button {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  background-color: transparent;
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
+  color: black;
+  opacity: 0.8;
+}
+
+.user {
+  width: 100%;
+  height: 20%;
+}
+
+.username {
+  font-size: 16px;
+}
+.time {
+  font-size: 14px;
+  color: grey;
+}
+
+.post-title {
+  height: 30%;
+  clear: both;
+  font-size: 17px;
+  font-weight: bolder;
+
+  display: flex;
+  align-items: center; /* align vertical */
+}
+
+.post-content {
+  height: 40%;
+}
+
+.share {
+  height: 10%;
+}
+.share button {
+  float: right;
+  margin-right: 20px;
+  font-size: 16px;
+  opacity: 0.8;
+  background-color: transparent;
+}
+
+.profile {
+  height: 100%;
+  border-radius: 70%;
+  float: left;
+  margin-right: 8px;
+}
