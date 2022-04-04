@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: url('image2.jpg') center;
+    background-size : cover;
+    filter: blur(0px);
+}
+
+.progress {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
